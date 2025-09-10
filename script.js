@@ -17,7 +17,7 @@ function hitungHarga() {
 
   let totalHarga = hargaBeli * faktor;
   let hargaPerItem = totalHarga / jumlahItem;
-  let hargaFinal = hargaPerItem;
 
-  document.getElementById("output").innerText = "💰 Harga Jual per Item: Rp " + hargaFinal.toLocaleString("id-ID");
+
+  document.getElementById("output").innerText = "💰 Harga Jual per Item: Rp " + hargaPerItem.toLocaleString("id-ID");
 }
