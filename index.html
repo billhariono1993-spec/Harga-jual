@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apotek Ksatria - Hitung Harga Jual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Apotek Ksatria</h1>
+    <h2>Hitung Harga Jual Obat</h2>
+    
+    <label>Harga Beli (Rp):</label>
+    <input type="number" id="hargaBeli" placeholder="Masukkan harga beli">
+    
+    <label>Jumlah Item:</label>
+    <input type="number" id="jumlahItem" placeholder="Masukkan jumlah item">
+    
+    <label>Jenis Obat:</label>
+    <select id="jenisObat">
+      <option value="keras">Obat Keras</option>
+      <option value="bebas">Obat Bebas</option>
+    </select>
+    
+    <label>Pajak:</label>
+    <select id="pajak">
+      <option value="belum">Belum Kena Pajak</option>
+      <option value="sudah">Sudah Kena Pajak</option>
+    </select>
+    
+    <button onclick="hitungHarga()">Hitung Harga Jual</button>
+    
+    <div id="output"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
