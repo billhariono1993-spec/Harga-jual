@@ -1,7 +1,3 @@
-function bulatkan500(angka) {
-  return Math.round(angka / 500) * 500;
-}
-
 function hitungHarga() {
   let hargaBeli = parseFloat(document.getElementById("hargaBeli").value);
   let jumlahItem = parseInt(document.getElementById("jumlahItem").value);
